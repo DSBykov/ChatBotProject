@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+.venv
+config.json
+conversation.txt
+*.pot
+*.po
+.vscode
+.idea
+*.pyc
