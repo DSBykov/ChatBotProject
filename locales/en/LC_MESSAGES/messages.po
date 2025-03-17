@@ -1,0 +1,232 @@
+# English translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-03-11 17:45+0300\n"
+"PO-Revision-Date: 2025-03-11 17:45+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: main.py:29
+msgid "Чат-бот: Привет! Добро пожаловать в чат-бот!"
+msgstr "Chatbot: Hello! Welcome to the chatbot!"
+
+#: main.py:40
+msgid "Вы: "
+msgstr "You: "
+
+#: main.py:42
+msgid "выход"
+msgstr "quit"
+
+#: main.py:43
+msgid "Чат-бот: До свидания!"
+msgstr "Chatbot: Goodbye!"
+
+#: main.py:53 src/conditions.py:14
+msgid "Я тебя не понимаю..."
+msgstr "I don't understand you..."
+
+#: main.py:54
+#, python-format
+msgid "Чат-Бот: %s"
+msgstr "Chatbot: %s"
+
+#: src/conditions.py:6
+msgid "привет"
+msgstr "hi"
+
+#: src/conditions.py:6
+msgid "здравствуйте"
+msgstr "hello"
+
+#: src/conditions.py:6
+msgid "добрый день"
+msgstr "good day"
+
+#: src/conditions.py:7
+msgid "пока"
+msgstr "bye"
+
+#: src/conditions.py:7
+msgid "до свидания"
+msgstr "goodbye"
+
+#: src/conditions.py:7
+msgid "прощай"
+msgstr "farewell"
+
+#: src/conditions.py:10
+msgid "И тебе привет!"
+msgstr "Hello to you too!"
+
+#: src/conditions.py:12
+msgid "Пока! Хорошего дня!"
+msgstr "Bye! Have a nice day!"
+
+#: src/conditions.py:28
+msgid "Не удалось определить имя."
+msgstr "Couldn't identify the name."
+
+#: src/file_operation.py:22 src/file_operation.py:61
+msgid "Ошибка при сохранении файла:"
+msgstr "Error saving the file:"
+
+#: src/file_operation.py:29
+msgid "Файл c историей общения не найден."
+msgstr "The file with the communication history was not found."
+
+#: src/file_operation.py:77
+#, python-format
+msgid "Выбран язык: %s, Ваше имя: %s"
+msgstr "Selected language: %s, Your name: %s"
+
+#: src/file_operation.py:82
+msgid "англиский"
+msgstr "english"
+
+#: src/file_operation.py:86
+msgid "русский"
+msgstr "russian"
+
+#: src/file_operation.py:91
+msgid "Список доступных языков: Русский и Англиский"
+msgstr "List of available languages: Russian and English"
+
+#: src/functions.py:16
+msgid "Чат-бот: "
+msgstr "Chatbot: "
+
+#: src/functions.py:19
+msgid "как дела"
+msgstr "how are you"
+
+#: src/functions.py:19
+msgid "У меня все хорошо, спасибо!"
+msgstr "I'm fine, thanks!"
+
+#: src/functions.py:20
+msgid "что ты умеешь"
+msgstr "what can you do"
+
+#: src/functions.py:20
+msgid "Я могу отвечать на простые вопросы."
+msgstr "I can answer simple questions."
+
+#: src/functions.py:21
+msgid "спасибо"
+msgstr "thanks"
+
+#: src/functions.py:21
+msgid "Всегда рад помочь :)"
+msgstr "I'm always happy to help :)"
+
+#: src/functions.py:22
+msgid "включи музыку"
+msgstr "Turn on the music"
+
+#: src/functions.py:22
+msgid "Кажется вы путаете меня с Алисой..."
+msgstr "I think you're confusing me with Alice..."
+
+#: src/functions.py:25
+msgid "Интересный вопрос!"
+msgstr "Interesting question!"
+
+#: src/functions.py:26
+msgid "Я подумаю над этим."
+msgstr "I'll think about it."
+
+#: src/functions.py:27
+msgid "Давайте поговорим о чем-нибудь другом!?"
+msgstr "Let's talk about something else!?"
+
+#: src/functions.py:28
+msgid "Спросите что нибудь попроще."
+msgstr "Ask something simpler."
+
+#: src/functions.py:30
+msgid "Извините, я не знаю как ответить на это :("
+msgstr "Sorry, I do not know how to answer this :("
+
+#: src/functions.py:33
+msgid "плюс"
+msgstr "plus"
+
+#: src/functions.py:35
+msgid "минус"
+msgstr "minus"
+
+#: src/functions.py:37
+msgid "умножить"
+msgstr "multiply"
+
+#: src/functions.py:39
+msgid "разделить"
+msgstr "divide"
+
+#: src/functions.py:39 src/functions.py:40
+msgid "делить на 0 нельзя"
+msgstr "You can't divide by 0."
+
+#: src/functions.py:41
+msgid "степени"
+msgstr "degree"
+
+#: src/functions.py:42 src/functions.py:73
+msgid "корень"
+msgstr "root"
+
+#: src/functions.py:42
+msgid "Нельзя извлечь корень из отрицательного числа."
+msgstr "You cannot extract the root from a negative number."
+
+#: src/functions.py:45
+msgid "настройки"
+msgstr "settings"
+
+#: src/functions.py:48
+msgid "меня зовут"
+msgstr "my name is"
+
+#: src/functions.py:58
+#, python-format
+msgid "Приятно познакомится, %s"
+msgstr "Nice to meet you, %s"
+
+#: src/functions.py:60 src/functions.py:85
+msgid "Возникла ошибка:"
+msgstr "An error has occurred:"
+
+#: src/functions.py:61
+msgid "Я не рсслышал... Напишите: \"Меня зовут <Ваше имя>\""
+msgstr "I didn't hear you... Write: \"My name is <Your name>\""
+
+#: src/functions.py:63
+msgid "изменить язык"
+msgstr "change the language"
+
+#: src/functions.py:67
+msgid "сколько будет"
+msgstr "how much"
+
+#: src/functions.py:83
+#, python-format
+msgid "Результат: %s"
+msgstr "Result: %s"
+
+#: src/functions.py:86
+msgid "Извините, я не могу обработать это выражение."
+msgstr "Sorry, I can't process this expression."
+
